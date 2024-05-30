@@ -1,17 +1,10 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { HomeComponent } from './home/home.component';
+import { MaisonComponent } from './maison/maison.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HomeComponent],
+  imports: [MaisonComponent],
   templateUrl: './app.component.html',
-  // template: ` <p>home works!</p>
-  //   <app-home></app-home>`,
-  // styleUrl: './app.component.css',
 })
-export class AppComponent {
-  title = 'First Project';
-  city = 'San Francisco';
-}
+export class AppComponent {}

@@ -1,0 +1,14 @@
+<p>composant louer marche</p>
+
+<!-- <p>{{ louerList.id }}</p>
+<p>{{ louerList.name }}</p>
+<p>{{ louerList.quantity }}</p> -->
+
+@for (louer of louerList; track louerList) {
+<p>nom: {{ louer.name }}</p>
+<p>quantité {{ louer.quantity }}</p>
+<!-- <p>img: {{ louer.photo }}</p> -->
+<img src="{{ louer.photo }}" alt="{{ louer.name }}" width="100" />
+}
+<!-- <img ng-src="./assets/img1.jpg" alt="" /> -->
+<!-- <img src="./assets/img1.jpg" alt="" /> -->
