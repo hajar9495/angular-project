@@ -5,10 +5,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app/app.component';
 
-import { MaisonComponent } from './app/maison/maison.component';
-import { RandomComponent } from './app/random/random.component';
-import { ListComponent } from './app/list/list.component';
-
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -16,14 +12,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   // declarations: [AppComponent, RandomComponent],
-  declarations: [ListComponent],
+  declarations: [],
   imports: [
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
     AppComponent,
-    NgModel,
   ],
   providers: [],
 })
